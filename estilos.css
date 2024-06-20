@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(57, 57, 57, 0.461);
+}
+.container{
+    margin: auto;
+    max-width: 700px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .col{
+    flex: 1;
+    padding: 15px;
+}
+
+.ahorcado{
+    width: 300px;
+    height: 515px;   
+    background-image: url(ahorcado.png);
+    background-size: cover;
+}
+
+button{
+    background-color: darkgoldenrod;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    padding: 7px 15px;
+    margin-top: 10px;
+}
+
+input{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.hiddenWord{
+    font-weight: bold;
+    font-size: 2rem;
+}
